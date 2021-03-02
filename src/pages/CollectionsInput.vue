@@ -1,0 +1,3 @@
+<template>
+  <h1>This is the form page</h1>
+</template>

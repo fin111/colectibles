@@ -1,6 +1,14 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
+    <ul>
+      <li>
+        <router-link to='/collection'>Collection of goodies</router-link>
+      </li>
+      <li>
+        <router-link to='/add-to-collection'>Add to collection</router-link>
+      </li>
+    </ul>
   </header>
 </template>
 

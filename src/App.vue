@@ -1,16 +1,14 @@
 <template>
   <the-header title="Things I found on the internet"></the-header>
-  <the-collection></the-collection>
+  <router-view></router-view>
 </template>
 
 <script>
 import TheHeader from './components/layouts/TheHeader.vue';
-import TheCollection from './components/collections/TheCollections.vue';
 
 export default {
   components: {
-    TheHeader,
-    TheCollection
+    TheHeader
   }
 }
 </script>
