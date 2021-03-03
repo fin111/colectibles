@@ -1,7 +1,8 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
-    <ul>
+  </header>
+  <ul>
       <li>
         <router-link to='/collection'>Collection of goodies</router-link>
       </li>
@@ -9,7 +10,6 @@
         <router-link to='/add-to-collection'>Add to collection</router-link>
       </li>
     </ul>
-  </header>
 </template>
 
 <script>
