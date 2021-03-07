@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import CollectionsForm from '../components/UI/CollectionsForm.vue';
+import CollectionsForm from '../components/collections/CollectionsForm.vue';
 
 export default {
   components: {
@@ -16,9 +16,8 @@ export default {
   },
   methods: {
     saveData(data) {
-      console.log(this.$store);
       this.$store.dispatch('collection/addCollection', data);
-      //this.$router.replace('/collection');
+      this.$router.replace('/collection');
     }
   }
 }
